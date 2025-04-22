@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - BitenUp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      background: linear-gradient(-45deg, #0f0f0f, #1c1c1c, #121212, #0a0a0a);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #39ff14;
+    }
+
+    header img {
+      height: 45px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #39ff14;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 2rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #39ff14;
+      margin-bottom: 2rem;
+    }
+
+    .contact-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #39ff14;
+      border-radius: 16px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+      max-width: 500px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+      padding: 1.2rem;
+      border-radius: 12px;
+      background-color: rgba(57, 255, 20, 0.1);
+      color: #39ff14;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      border: 1px solid #39ff14;
+    }
+
+    .contact-link:hover {
+      background-color: #39ff14;
+      color: #000;
+      transform: scale(1.03);
+    }
+
+    .contact-link svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #333;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .contact-box {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="c:\Users\aneph\Downloads\af7a00c0-373d-4ef2-8725-f8d14394d540-Photoroom.png" alt="Logo BitenUp" />
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Conecte-se com a BitenUp</h1>
+
+    <div class="contact-box">
+      <a class="contact-link" href="https://wa.me/5521967589625" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339.3 55.5 283.9 32 224.6 32 104.2 32 8.3 127.8 8 248.3c-.1 43.9 11.4 86.6 33.2 124.2L0 480l110.2-40.1c35.5 19.4 75.2 29.6 115.5 29.6h.1c120.4 0 216.3-95.9 216.3-216.4 0-59.2-23.5-114.5-65.2-156z"/></svg>
+        Falar no WhatsApp
+      </a>
+
+      <a class="contact-link" href="https://instagram.com/jvictorr_06" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.34,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.27-30.27C297.13,124,224,124,224,124s-73.13,0-94.43,7.39a54,54,0,0,0-30.27,30.27C92,144.87,92,224,92,224s0,79.13,7.39,100.43a54,54,0,0,0,30.27,30.27C150.87,356,224,356,224,356s73.13,0,94.43-7.39a54,54,0,0,0,30.27-30.27C356,303.13,356,224,356,224S356,144.87,348.71,161.66ZM224,338a114,114,0,1,1,114-114A114.13,114.13,0,0,1,224,338Zm118.6-204.4a26.6,26.6,0,1,1-26.6-26.6A26.6,26.6,0,0,1,342.6,133.6Z"/></svg>
+        Instagram: @jvictorr_06
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 BitenUp. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

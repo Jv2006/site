@@ -1,0 +1,88 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #121212;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #39ff14;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .hero .highlight {
+      color: #39ff14;
+    }
+
+    .hero p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .btn-whatsapp {
+      display: inline-block;
+      margin-top: 2rem;
+      background-color: #39ff14;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+
+    .btn-whatsapp:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .cta-box {
+      background-color: #1a1a1a;
+      border: 1px solid #39ff14;
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .servicos {
+      display: flex;
+    }
+    
